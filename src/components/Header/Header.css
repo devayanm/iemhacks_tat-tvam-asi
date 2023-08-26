@@ -27,30 +27,8 @@
 
 }
 
-.header-image-1,
-.header-image-2 {
-    height: 24rem;
-    width: 22rem;
-    border-radius: 0.5rem;
-}
-
-.header-image-1 {
-    /* background-image: url(../../img/human.jpg); */
-    background-size: cover;
-    background-position: center;
-
-}
-
-.header-image-2 {
-    /* background-image: url(../../img/human2.jpg); */
-    background-size: cover;
-    background-position: center;
-
-
-}
-
 .header-content-1 {
-    width: 56%;
+    width: 65%;
 }
 
 .header-content-1 h1 {
@@ -62,8 +40,6 @@
 }
 
 .header-content-2 {
-
-    width: 50%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -81,10 +57,10 @@
     font-weight: 400;
     text-align: center;
     margin-top: 1rem;
-    width: 60%;
+    width: 300px;
     background-color: var(--bluish-green);
     border-radius: 0 2rem 0 2rem;
-    height: 400px;
+    height: 300px;
 }
 
 .highlight {

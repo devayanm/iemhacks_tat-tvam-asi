@@ -1,7 +1,7 @@
 import './App.css';
 import { Navbar, Footer } from './components';
 import { Routes, Route } from "react-router-dom";
-import { HomePage, JoinUsPage } from './Pages';
+import { HomePage, JoinUsPage, SignINUPPage } from './Pages';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
 
         <Route exact path="/" element={<HomePage />} />
         <Route path='join-us' element={<JoinUsPage />} />
+        <Route path='sign-in-up' element={<SignINUPPage />} />
       </Routes>
       <Footer />
     </div>
