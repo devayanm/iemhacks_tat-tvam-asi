@@ -13,7 +13,6 @@ function Navbar() {
                 <li><Link className="link" to="/">Home</Link></li>
                 <li><Link className="link" to="/self-assessment">Self Assessment</Link></li>
                 <li><Link className="link" to="/contact">Helpline</Link></li>
-                <li><Link className="link" to="/resource">Resource</Link></li>
                 <li><Link className="link" to="/community">Chat</Link></li>
             </ul>
             <div className="navbar__buttons">

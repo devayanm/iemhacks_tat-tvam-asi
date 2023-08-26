@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 3rem;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 99;
+  }
+  
+  .navbar__logo img {
+    height: 50px;
+  }
+  
+  .navbar__items {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__items li {
+    margin-left: 20px;
+  }
+  
+  .navbar__items li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar__items a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: var(--montserrat);
+    font-weight: 400;
+    transition: color 400ms ease-in-out 50ms;
+  }
+  
+  .navbar__items a:hover {
+    color: var(--orange);
+  }
+  
+  .navbar__buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .joinButton {
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    background-color: var(--orange);
+    color: #fff;
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  .joinButton:hover {
+    background-color: #fff;
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    transition: all 400ms ease-in-out 50ms;
+
+  }
+  
+  .signinButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out 50ms;
+
+  }
+  
+  .signinButton:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
