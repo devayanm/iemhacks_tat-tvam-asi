@@ -1,39 +1,24 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; // Import Link and Routes
-import LandingPage from './LandingPage';
-import Dashboard from './components/Dashboard';
-import Profile from './components/Profile';
-import Forum from './components/Forum';
-import { CssBaseline, AppBar, Toolbar, Typography, Button } from '@mui/material';
+import './App.css';
+import { Footer, Navbar } from './components';
+import { Routes, Route } from "react-router-dom";
+import { HomePage, SelfAssessmentPage, ContactPage, CommunityPage, ResourcePage, SignINUPPage, JoinUsPage } from './Pages';
 
 function App() {
   return (
-    <Router>
-      <CssBaseline />
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" component={Link} to="/landingpage" style={{ textDecoration: 'none', color: 'white' }}>
-            EmpathConnect
-          </Typography>
-          <Button color="inherit" component={Link} to="/dashboard">
-            Dashboard
-          </Button>
-          <Button color="inherit" component={Link} to="/profile">
-            Profile
-          </Button>
-          <Button color="inherit" component={Link} to="/forum">
-            Forum
-          </Button>
-        </Toolbar>
-
-      </AppBar>
+    <div className="App">
+      <Navbar />
       <Routes>
-        <Route path="/landingpage" component={LandingPage} />
-        <Route path="/dashboard" component={Dashboard} />
-        <Route path="/profile" component={Profile} />
-        <Route path="/forum" component={Forum} />
+
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/resource" element={<ResourcePage />} />
+        <Route exact path="/self-assessment" element={<SelfAssessmentPage />} />
+        <Route exact path="/contact" element={<ContactPage />} />
+        <Route exact path="/community" element={<CommunityPage />} />
+        <Route path='sign-in-up' element={<SignINUPPage />} />
+        <Route path='join-us' element={<JoinUsPage />} />
       </Routes>
-    </Router>
+      <Footer />
+    </div>
   );
 }
 
