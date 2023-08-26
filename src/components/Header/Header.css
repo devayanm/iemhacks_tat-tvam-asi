@@ -1,0 +1,134 @@
+.header-container {
+    height: 150svh;
+    border-radius: 0 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.header-row-1 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.6rem;
+    width: 100%;
+
+}
+
+.header-row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+
+}
+
+.header-image-1,
+.header-image-2 {
+    height: 24rem;
+    width: 22rem;
+    border-radius: 0.5rem;
+}
+
+.header-image-1 {
+    /* background-image: url(../../img/human.jpg); */
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header-image-2 {
+    /* background-image: url(../../img/human2.jpg); */
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.header-content-1 {
+    width: 56%;
+}
+
+.header-content-1 h1 {
+    width: 100%;
+    font-family: var(--montserrat);
+    font-weight: 700;
+    font-size: 5rem;
+    color: var(--green);
+}
+
+.header-content-2 {
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.header-content-2 p {
+    padding: 1.5rem 2rem;
+    line-height: 1.6rem;
+    word-spacing: 0.07rem;
+    letter-spacing: 0.02rem;
+    font-size: 1.2rem;
+    color: var(--white);
+    font-family: var(--noto);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+    width: 48%;
+    background-color: var(--bluish-green);
+    border-radius: 0 2rem 0 2rem;
+    height: 19rem;
+}
+
+.highlight {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.max {
+    font-family: var(--sg);
+}
+
+.header-row-4 {
+    padding: 2rem;
+    margin: 3rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--light-blue);
+    border-radius: 1rem;
+}
+
+.header-row-4 h1 {
+    color: var(--green);
+    font-family: var(--montserrat);
+    font-size: 2.1rem;
+}
+
+.header-row-4 p {
+    color: var(--black);
+    font-family: var(--noto);
+    font-size: 1.15rem;
+    width: 40%;
+    text-align: center;
+}
+
+.emergency {
+    color: var(--orange);
+}
+
+.phone {
+    padding: 1rem 1.6rem;
+    background-color: var(--orange);
+    font-family: var(--montserrat);
+    color: var(--white);
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
