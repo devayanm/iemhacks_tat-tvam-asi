@@ -81,10 +81,10 @@
     font-weight: 400;
     text-align: center;
     margin-top: 1rem;
-    width: 48%;
+    width: 60%;
     background-color: var(--bluish-green);
     border-radius: 0 2rem 0 2rem;
-    height: 19rem;
+    height: 400px;
 }
 
 .highlight {

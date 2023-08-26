@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar } from './components';
+import { Navbar, Footer } from './components';
 import { Routes, Route } from "react-router-dom";
 import { HomePage } from './Pages';
 
@@ -11,7 +11,7 @@ function App() {
 
         <Route exact path="/" element={<HomePage />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
