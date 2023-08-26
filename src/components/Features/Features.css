@@ -1,0 +1,48 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container h2 {
+    font-size: 3.2rem;
+    font-family: var(--montserrat);
+    color: var(--green);
+    position: relative;
+    top: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 200px;
+}
+
+.grid-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-card h3 {
+    font-family: var(--noto);
+    font-size: 30px;
+    color: var(--bluish-green);
+}
+
+.grid-card p {
+    text-align: center;
+    width: 60%;
+    font-family: var(--noto);
+    font-size: 18px;
+}
