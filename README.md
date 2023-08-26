@@ -2,7 +2,7 @@
 IEM Hacks 2.0
 # EmpathConnect
 
-EmpathConnect is a website built entirely with React, providing a dedicated platform that offers a safe and confidential space for students to connect with peers dealing with similar mental health challenges.
+EmpathConnect is a web platform designed to provide a supportive and confidential space for students to connect with peers facing similar mental health challenges. The platform is built using HTML, CSS, JavaScript, Node.js, and React.js, and it aims to foster understanding, empathy, and resource sharing among students.
 
 ## Features
 
@@ -13,11 +13,10 @@ EmpathConnect is a website built entirely with React, providing a dedicated plat
 
 ## Technologies Used
 
-- **Front-End:** React
-- **State Management:** [Redux / Context API]
-- **Real-time Communication:** [Socket.io]
-- **Styling:** [Material-UI / Styled Components / CSS Modules]
-- **Hosting:** [Heroku / Netlify / Vercel]
+- **Front-End:** HTML, CSS, JavaScript, React.js
+- **Back-End:** Node.js
+- **Dependencies:** Material-UI, react-router-dom, and others (see `package.json` for full list)
+- **Hosting:** Vercel/Netlify
 
 ## Getting Started
 
@@ -42,11 +41,6 @@ Contributions are welcome! If you have enhancements or bug fixes, please follow 
 4. Push the branch to your fork: `git push origin feature/your-feature-name`.
 5. Open a pull request on the main repository.
 
-<!-- ## License
+## License
 
-This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details. -->
-
-<!-- ## Contact
-
-For any inquiries, reach out to [your-email@example.com](mailto:your-email@example.com). -->
-
+This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
