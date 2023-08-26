@@ -1,0 +1,44 @@
+.carousel-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 1200px;
+    padding: 1.2rem;
+  }
+  
+  .carousel-grid-item {
+    background-color: var(--light-blue);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 0.5rem;
+
+  }
+  
+  .carousel-grid-item img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+
+  }
+  
+  .carousel-grid-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: var(--montserrat);
+  }
+  
+  .carousel-grid-item a {
+    font-size: 1.2rem;
+    font-family: var(--montserrat);
+    color: var(--bluish-green);
+    margin-top: 1rem;
+  }
+  
