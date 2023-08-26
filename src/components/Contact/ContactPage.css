@@ -1,0 +1,47 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 1.5rem;
+}
+
+.card {
+    background-color: var(--light-blue);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card img {
+    display: block;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    font-family: var(--montserrat);
+    font-weight: 500;
+    color: var(--green);
+    text-align: center;
+}
+
+.card p {
+    margin: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: var(--noto);
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--green);
+}
