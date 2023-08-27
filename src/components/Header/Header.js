@@ -6,15 +6,19 @@ const Header = () => {
         <header className="header-container">
             <div className='header-row-1'>
                 <div className="header-content-1">
-                    <h1>Empowering Mental Health and Wellness.</h1>
+                    <h2>Your Journey to Wellness</h2>
+                    <p>"Your mental health matters."</p>
                 </div>
             </div>
             <div className='header-row-2'>
                 <div className="header-content-2">
-                    <p>Our platform is dedicated to providing access to resources, support, and a safe space for people to talk about their mental health experiences. We understand the importance of mental health and strive to provide evidence-based information and tools to help manage symptoms of anxiety, depression, trauma, and other challenges.
-                    </p>
-                    <p>We are here to support you on your journey to wellness. Our community is guided by a team of experts and we encourage individuals to take the first step towards a happier and healthier life by joining us. We are committed to breaking the stigma surrounding mental health and creating a world where everyone can thrive.<br />
-                    </p>
+                    <p>At EmpathConnect, we're not just a website — we're your partners in your journey towards wellness.
+                        Our dedicated community, guided by a team of experts, is here to provide the resources, support, and
+                        information you need. We encourage individuals to take that crucial first step towards a happier,
+                        healthier life by joining us.</p>
+                    <p>We're on a mission to shatter the stigma that surrounds mental health. Together, we're creating a world
+                        where everyone can thrive, no matter what challenges they face. Let's embark on this journey together,
+                        because you're never alone.</p>
                 </div>
             </div>
             <div className='header-row-4'>
