@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/self-assessment" element={<SelfAssessmentPage />} />
         <Route exact path="/resource" element={<ResourcePage />} />
         <Route exact path="/community" element={<CommunityPage />} />
-        <Route exact path="/events" element={<EventsPage />} />
+        <Route exact path="events" element={<EventsPage />} />
 
       </Routes>
       <Footer />
