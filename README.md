@@ -70,6 +70,19 @@ Join us in shaping a community where empathy isn't just a word – it's a way of
   </p>
 </div>
 
+<div align="center">
+  <p align="center" style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 80%;">
+    <span style="font-size: 40px; color: #e74c3c;">🚨</span>
+    <br>
+    <span style="font-size: 18px; color: #e74c3c; font-weight: bold;">⚠️ Attention:</span>
+    <br>
+    <span style="font-size: 16px; color: #333;">The EmpathConnect website is currently optimized for viewing on PCs or laptops. For the best experience, we recommend accessing it using a larger screen. Stay tuned as we work towards enhancing the mobile experience!</span>
+  </p>
+</div>
+
+
+
+
 <!-- Table of Contents -->
 ## Table of Contents
 - [About EmpathConnect](#about-empathconnect)
