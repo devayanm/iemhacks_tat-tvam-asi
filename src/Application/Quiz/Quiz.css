@@ -35,7 +35,7 @@
 }
 
 .quesBox {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     font-size: 1.3rem;
     font-weight: 500;
     font-family: var(--montserrat);
@@ -80,4 +80,50 @@ label {
     font-size: 1.14rem;
     font-family: var(--noto);
     color: var(--green)
+}
+
+@media (max-width: 767px) {
+    .quiz-background {
+        padding: 3rem;
+        width: 85%;
+        border-radius: 30px;
+    }
+
+    .btn {
+        margin-top: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .quesBox {
+        font-size: 1.1rem;
+    }
+
+    .row {
+        margin: 0.3rem;
+        padding: 6px;
+        border-radius: 15px;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .quiz-background {
+        padding: 3.5rem;
+    }
+
+    .btn {
+        margin-top: 0.9rem;
+        font-size: 1.05rem;
+    }
+
+    .quesBox {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    
 }

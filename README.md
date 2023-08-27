@@ -12,9 +12,9 @@ IEM Hacks 2.0
     EmpathConnect is a web platform designed to provide a supportive and confidential space for students to connect with peers facing similar mental health challenges. The platform is built using HTML, CSS, JavaScript, Node.js, and React.js, and it aims to foster understanding, empathy, and resource sharing among students.
   </p>
   <p>
-    <a href="https://empathconnect.netlify.app/">
+<!--     <a href="https://empathconnect.netlify.app/">
       <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fempathconnect.netlify.app%2F">
-    </a>
+    </a> -->
 <!--     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/yourusername/empathconnect">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/yourusername/empathconnect">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/yourusername/empathconnect"> -->
@@ -37,7 +37,7 @@ IEM Hacks 2.0
 
 EmpathConnect is a web platform designed to provide a safe and confidential space for students to connect with peers facing similar mental health challenges. Built with a blend of HTML, CSS, JavaScript, React.js, and Node.js, EmpathConnect fosters empathy, understanding, and resource-sharing among its community members.
 
-Visit EmpathConnect: [https://empathconnect.netlify.app/](https://empathconnect.netlify.app/)
+Visit EmpathConnect: [https://iemhacks-tat-tvam-asi.vercel.app/](https://iemhacks-tat-tvam-asi.vercel.app/)
 
 <!-- Features -->
 ## Features

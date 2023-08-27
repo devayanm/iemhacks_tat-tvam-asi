@@ -3,29 +3,31 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 90svh;
+    min-height: 80vh;
 }
 
 .join-us-form h2 {
     font-family: var(--montserrat);
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     color: var(--green);
+    margin-bottom: 1rem;
 }
 
 .form-group input {
     font-family: var(--noto);
     font-size: 1.1rem;
-
     padding: 0.7rem 1rem;
     margin: 0.4rem;
     border: none;
     border-bottom: 2px solid var(--bluish-green);
     outline: none;
+    width: 100%;
 }
 
 .form-group label {
     font-family: var(--noto);
     font-size: 1.1rem;
+    margin-bottom: 0.5rem;
 }
 
 .join-us-form button {
@@ -35,14 +37,17 @@
     border-radius: 0.5rem;
     padding: 1rem;
     width: 18rem;
-    margin-top: 1.3rem;
-
+    margin-top: 1rem;
     color: var(--white);
     font-family: var(--noto);
     font-weight: 500;
     font-size: 1.2rem;
-
     cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.join-us-form button:hover {
+    background-color: #f89941;
 }
 
 .uploadBox {
@@ -51,9 +56,10 @@
     color: var(--white);
     border-radius: 1rem;
     padding: 0.4rem;
-    margin-top: 0.9rem;
-    width: 16rem;
-    outline: none;
+    margin-top: 0.7rem;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
 }
 
 ::-webkit-file-upload-button {
@@ -64,5 +70,31 @@
     padding: 0.8rem;
     outline: none;
     border: none;
+    cursor: pointer;
     margin-left: 0.3rem;
+}
+
+
+@media (max-width: 767px) {
+    .join-us-form button {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .uploadBox {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .join-us-form button {
+        width: 100%;
+        font-size: 1.15rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .join-us-form button {
+        width: 18rem;
+    }
 }
