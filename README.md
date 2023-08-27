@@ -21,6 +21,14 @@ IEM Hacks 2.0
   </p>
 </div>
 
+## iemhack2.0
+
+- **Team name:** tat-tvam-asi
+- **Team Leader:** Adarsh Kumar
+- **Email id:** adarshkumarmsay@gmail.com
+- **Team Member:** Devayan Mandal
+- **Email id:** devayan9689@gmail.com
+
 <!-- Table of Contents -->
 ## Table of Contents
 - [About EmpathConnect](#about-empathconnect)
