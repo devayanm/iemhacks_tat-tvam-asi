@@ -14,7 +14,7 @@ function Navbar() {
                 <li><Link className="link" to="/self-assessment">Self Assessment</Link></li>
                 <li><Link className="link" to="/events">Events</Link></li>
                 <li><Link className="link" to="/contact">Helpline</Link></li>
-                <li><Link className="link" to="/community">Chat</Link></li>
+                <li><Link className="link" to="/community">Forum</Link></li>
             </ul>
             <div className="navbar__buttons">
                 <Link to="/join-us"><button className="joinButton">Join Us</button></Link>

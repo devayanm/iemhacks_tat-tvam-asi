@@ -1,22 +1,24 @@
 .quiz-container {
     min-height: 89.8svh;
     width: 97vw;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 50px;
 }
 
 .quiz-background {
     padding: 5rem;
-    width: 60%;
+    width: 50%;
     height: auto;
-    background-color: aqua;
+    background-color: lightgrey;
+    border-radius: 50px;
 }
 
 .quiz {
     background-color: var(--white);
+    border-radius: 20px;
     padding: 2rem;
 }
 
